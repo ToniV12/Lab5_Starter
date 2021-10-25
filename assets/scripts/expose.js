@@ -47,7 +47,6 @@ function init() {
   const butt = document.querySelector("button");
   butt.addEventListener('click', function(){
     const noise = document.querySelector("audio");
-    console.log(horn.value);
     if(horn.value == "party-horn"){ // create confetti :)
       const jsConfetti = new JSConfetti();
       jsConfetti.addConfetti();
