@@ -22,7 +22,7 @@ function init() {
   function populateVoiceList() {
      window.speechSynthesis.getVoices();
   }
-  
+
   // update the values of the language for synthesizing
   function fillSelectorList(){
     var list = document.getElementById('voice-select');
